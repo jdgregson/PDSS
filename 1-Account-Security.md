@@ -71,8 +71,10 @@ ANY device used to store and provide TOTP codes SHOULD:
   * Utilize a second pass code, password, or biometric prompt which restricts access to the TOTP application.
 
 ANY device used to store and provide TOTP codes MUST NOT:
-  * Allow a code to be visible without authenticating into the user profile, i.e. on the lock screen.
-  * Allow a login attempt to be approved from the lock screen, i.e. through a "yes" or "no" push notification.
+  * Allow a code to be visible without authenticating into the user profile (e.g. on the lock screen).
+  * Allow a login attempt to be approved from the lock screen (e.g. through a "yes" or "no" push notification).
+  * Have the device's boot integrity or boot verification features disabled (e.g. "Secure Boot" or OEM locking).
+  * Have the operating system deliberately modified to allow user elevation of privilege (e.g. "jail breaking" for Apple devices or "rooting" for Android devices).
 
 ---
 
