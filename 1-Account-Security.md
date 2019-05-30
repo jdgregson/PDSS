@@ -1,5 +1,5 @@
 # 1. Account Security
-Section 1 of the Paranoid Digital Security Standard sets forth standard account security controls.
+Section 1 of the Paranoid Digital Security Standard sets forth standard account security controls for online accounts.
 
 
 ## 1.1 Password Policies
@@ -75,6 +75,12 @@ ANY device used to store and provide TOTP codes MUST NOT:
   * Allow a login attempt to be approved from the lock screen (e.g. through a "yes" or "no" push notification).
   * Have the device's boot integrity or boot verification features disabled (e.g. "Secure Boot" or OEM locking).
   * Have the operating system deliberately modified to allow user elevation of privilege (e.g. "jail breaking" for Apple devices or "rooting" for Android devices).
+
+
+## 1.3 Separation of Privilege
+
+### 1.3.1 Separate Administrative Accounts
+ANY user who is assigned administrative duties MUST use a separate account to carry out administrative tasks. Accounts used regularly for tasks such as sending emails and editing content MUST NOT have access to administrative features that can affect other user accounts.
 
 ---
 
