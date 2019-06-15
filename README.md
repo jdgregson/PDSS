@@ -4,14 +4,14 @@ A set of standards designed to achieve and enforce the most secure digital secur
 
 ## Threat Model
 The goal of the Paranoid Digital Security Standard is to mount a successful defense against a threat actor who is:
- * well funded
- * well organized
- * highly skilled
- * not concerned with or restricted by any laws
+ * Well funded.
+ * Well organized.
+ * Highly skilled.
+ * Not concerned with or restricted by any laws.
 
 and has:
- * unlimited physical access to all of the account holder's devices
- * deep knowledge of the account holder's account hierarchy and usernames
+ * Unlimited physical access to all of the account holder's devices.
+ * Deep knowledge of the account holder's account hierarchy and usernames.
 
 
 ## Contents
