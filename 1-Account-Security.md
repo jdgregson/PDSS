@@ -5,7 +5,7 @@ Section 1 of the Paranoid Digital Security Standard sets forth standard account 
 ## 1.1 Password Policies
 
 ### 1.1.1 Password Strength Requirements
-Passwords MUST be a minimum of twelve (12) characters. Passwords MUST contain characters form AT LEAST two of the following character sets:
+Passwords MUST be a minimum of twelve (12) characters. Passwords MUST contain characters from AT LEAST two of the following character sets:
   * Lower case alphabet (a-z).
   * Upper case alphabet (A-Z).
   * Numbers (0-9).
